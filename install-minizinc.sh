@@ -13,7 +13,7 @@ tar xf "$HOME/bin/${MZN_ARCHIVE}" -C "$HOME/bin"
 # Remove extracted directory
 rm "$HOME/bin/${MZN_ARCHIVE}"
 
-# Create path environment variables
-export PATH=$HOME/bin/${MZN_DIR}/bin:$PATH
-export LD_LIBRARY_PATH=$HOME/bin/${MZN_DIR}/lib:$LD_LIBRARY_PATH
-export QT_PLUGIN_PATH=$HOME/bin/${MZN_DIR}/plugins:$QT_PLUGIN_PATH
+# Create path environment variables to .bashrc
+echo "export PATH=\$HOME/bin/${MZN_DIR}/bin:\$PATH" >> $HOME/.bashrc
+echo "export LD_LIBRARY_PATH=\$HOME/bin/${MZN_DIR}/lib:\$LD_LIBRARY_PATH" >> $HOME/.bashrc
+echo "export QT_PLUGIN_PATH=\$HOME/bin/${MZN_DIR}/plugins:\$QT_PLUGIN_PATH" >> $HOME/.bashrc
