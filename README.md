@@ -24,7 +24,7 @@ The [`install-minizinc`](./install-minizinc.sh) shell script downloads MiniZinc 
 ./install-minizinc
 ```
 
-The [`install-or-tools`](./install-minizinc.sh) shell script downloads Google OR-Tools from GitHub releases, extracts the archive to `$HOME/bin` directory, removes the extracted archive and creates a solver configuration file to `$HOME/.minizinc/solvers/or-tools.msc`.
+The [`install-or-tools`](./install-or-tools.sh) shell script downloads Google OR-Tools from GitHub releases, extracts the archive to `$HOME/bin` directory, removes the extracted archive and creates a solver configuration file to `$HOME/.minizinc/solvers/or-tools.msc`.
 
 ```bash
 ./install-or-tools
