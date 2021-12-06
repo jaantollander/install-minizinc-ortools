@@ -1,5 +1,5 @@
 # Scripts for Installing MiniZinc and OR-Tools on Linux
-These scripts are tested on Ubuntu 20.04. They can be modified for other Linux distributions.
+These scripts are tested on Ubuntu 20.04. They can be modified for other Linux distributions. Credits for @juanmarcosdev for the helpful Dockerfile: https://github.com/juanmarcosdev/minizinc-or-tools.
 
 
 ## Instructions
