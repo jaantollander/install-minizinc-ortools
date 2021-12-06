@@ -21,7 +21,7 @@ mkdir -p "$HOME/.minizinc/"
 mkdir -p "$HOME/.minizinc/solvers"
 echo "{\
 \"id\": \"com.google.or-tools\", \
-\"name\": \"or-tools\", \
+\"name\": \"OR-Tools\", \
 \"description\": \"OR Tools Constraint Programming Solver (from Google)\", \
 \"version\": \"${VERSION}.${REV}\", \
 \"executable\": \"${HOME}/bin/or-tools_flatzinc_Ubuntu-${UBUNTU_VERSION}-64bit_v${VERSION}.${REV}/bin/fzn-or-tools\", \
