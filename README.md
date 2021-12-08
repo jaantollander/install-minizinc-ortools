@@ -10,12 +10,6 @@ apt-get update
 apt-get install wget -y
 ```
 
-Next, let's create `bin/` directory to the home directory.
-
-```bash
-mkdir -p $HOME/bin
-```
-
 Now, we can use the scripts to install MiniZinc and Google OR-Tools.
 
 The [`install-minizinc.sh`](./install-minizinc.sh) shell script downloads MiniZinc from GitHub releases, extracts the archive to `$HOME/bin` directory, removes the extracted archive and write the exports for the path environment variables to `$HOME/.bashrc`.
