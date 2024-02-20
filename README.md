@@ -28,5 +28,5 @@ The [`install-or-tools.sh`](./install-or-tools.sh) shell script downloads Google
 We can use the solver with the name `or-tools`.
 
 ```bash
-minizinc --solver or-tools
+minizinc --solvers or-tools
 ```
